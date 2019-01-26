@@ -9,10 +9,10 @@ perl mixi_export.pl
 →adiary.xmlが生成される
 
 (2)
-adiary.xmlがあるディレクトリにて以下を実行。
+adiary.xml と同じディレクトリにて以下を実行。
 python3 Gen.py
 生成されるもの:
-- posts.json ... adiary.xml よりもうちっとシンプルな構造のファイル
+- posts.json ... adiary.xml よりもうちっとシンプルな構造のファイル。データ構造は parse 関数のところを参照。
 - download_images.sh ... 日記中の画像を images/ にダウンロードするシェルスクリプト
 - diary.html ... posts.json から生成した超簡素な日記とコメント一覧。
 
